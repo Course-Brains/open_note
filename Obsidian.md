@@ -19,7 +19,7 @@ Congratulations, you now know obsidian link syntax.
 
 ---
 You can have the three headings by starting a line with #, a space, then the text of the heading.
-You can get the smaller headings by using multiple #.
+You can get the smaller headings by using multiple #, going all the way to 6.
 <pre>
 # A large heading for a main section
 ## A subsection
@@ -70,6 +70,8 @@ I also am not going to go into the nitty gritty of this
 \sqrt for $\sqrt {square roots}$
 \pm for $\pm$
 \mp for $\mp$
+\infty for $\infty$
+\dots for $\dots$
 Some of the things modify others, like how if you give \sum \_ or ^, it won't do normal sub or superscript, it'll do this:
 $$
 \sum_{i=7}^{10}
